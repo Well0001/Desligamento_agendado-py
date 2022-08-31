@@ -15,13 +15,6 @@ def btn_agendar():
 def cancelar():
     return os.system("shutdown /a")
 
-def testaEntradaInteiro(valor):
-    if valor.isdigit():
-        return True
-    else:
-        return False
-
-
 root = Tk()
 root.geometry('300x250')
 root.title('Agendar Desligamento')
